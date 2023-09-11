@@ -87,7 +87,7 @@ CIDR = 26, então significa 26 bits são fixos, isto é, uma máscara de 26 bits
 
 Então, você pode brincar com os bits flexíveis marcados por **x**.
 
-|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 {c:green} x x x x x x {/c} |
+|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 <font color=\"red\"> x x x x x x </font> |
 |-|-|-|-|
 | 255 | 255 | 255 | 192 |
 
