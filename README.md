@@ -67,3 +67,15 @@ A figura a seguir aponta as principais diferenças. Contudo, na rede local, só 
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/ipv4_vs_ipv6.png">
    <img alt="IPV4 vs IPV6" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/ipv4_vs_ipv6.png)">
 </picture
+
+
+# Redes e Sub-redes
+
+As redes de computadores servem para criar hierarquias de estações de trabalho dentro de numa organização. Por exemplo, numa instituição de ensino, existe a rede de alunos, a de professores e a administrativa. As redes geralmente não se conversam e há critérios de segurança entre elas.
+
+E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, precisamos do CIDR (Classes Inter-Domain Routing) para organizar essas redes dentro de redes.
+
+**Basicamente, o que você precisa saber pra dominar esse trem?**
+
+>>> Fazer conversão de binária para decimal.
+
