@@ -90,7 +90,7 @@ CIDR = 26, então significa que a máscara possui 26 bits "1" e 6 bits irrelevan
 
 Sua função é entender qual é o primeiro e o último endereço IPV4 disponível na rede **10.0.0.0/26**
 
-#### 1º endereço será: 
+#### Primeiro endereço da faixa será: 
 
 | 10 | 0 | 0 | 0 |
 |-|-|-|-|
@@ -105,7 +105,7 @@ Resulta em:
 | 10 | 0 | 0 | 0 |
 |-|-|-|-|
 
-#### 2º endereço será: 
+#### Último endereço da faixa será: 
 
 | 10 | 0 | 0 | 0 |
 |-|-|-|-|
