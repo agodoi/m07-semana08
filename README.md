@@ -87,3 +87,36 @@ CIDR = 26, então significa que a máscara possui 26 bits "1" e 6 bits irrelevan
 
 |1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
 |-|-|-|-|
+
+Sua função é entender qual é o primeiro e o último endereço IPV4 disponível na rede **10.0.0.0/26**
+
+#### 1º endereço será: 
+
+| 10 | 0 | 0 | 0 |
+|-|-|-|-|
+
+vezes a máscara:
+
+|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
+|-|-|-|-|
+
+Resulta em:
+
+| 10 | 0 | 0 | 0 |
+|-|-|-|-|
+
+#### 2º endereço será: 
+
+| 10 | 0 | 0 | 0 |
+|-|-|-|-|
+
+vezes a máscara:
+
+|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
+|-|-|-|-|
+
+Resulta em:
+
+| 10 | 0 | 0 | 63 |
+|-|-|-|-|
+
