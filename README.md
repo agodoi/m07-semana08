@@ -116,6 +116,7 @@ vezes a máscara:
 
 |1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
 |-|-|-|-|
+| 255 | 255 | 255 | 192 |
 
 Resulta em:
 
@@ -129,3 +130,4 @@ porque 1 1 1 1 1 1 = 63
 - Primeiro endereço: 10.0.0.0 (endereço da rede)
 - Último endereço: 10.0.0.63 (endereço de broadcast)
 - Faixa útil: 10.0.0.1 até 10.0.0.62
+- Quantidade de hosts possíveis: 62
