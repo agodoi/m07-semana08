@@ -1,4 +1,4 @@
-# SubRedes e demais conceitos
+# Sub-redes e demais conceitos
 
 Nessa instrução, vamos falar especialmente de mapeamento de redes locais usando IPV4 para criar redes e subredes, mas também vamos transitar por:
 
