@@ -4,7 +4,7 @@ Nessa instrução, vamos falar especialmente de mapeamento de redes locais usand
 
 1) Organização dos protocolos em camadas (Modelo OSI);
 2) Protocolo IPV6;
-3) Arquiteturas de redes;
+3) Topologias de redes;
 4) TCP e UDP;
 
 
@@ -20,7 +20,7 @@ Existe dois tipos de redes:
 
 Ambas as redes servem para conectar os hosts (que são end-devices numa grande rede chamada Internet).
 
-Os hosts se comunincam usando diversos protocolos que trabalham de **camada N para camada N**
+Os hosts se comunincam usando diversos protocolos que trabalham de **camada N para camada N**.
 
 
 <picture>
@@ -31,6 +31,8 @@ Os hosts se comunincam usando diversos protocolos que trabalham de **camada N pa
 Alguns detaques da figura:
 
 * O Modelo OSI (Opened Standard Interconnection) possui 7 camadas. É uma pilha de camadas totalmente abstrata, isto é, não existe essas camadas na vida real e não correspondem à nenhuma placa específica do computador;
+
+## Modelo OSI
   
 * **Camada 07 - Aplicação :** cuida de tudo o que aparece na sua tela, é a aplicação;
 * **Camada 06 - Apresentação :** é o tradutor com criptografia/descriptografia;
@@ -40,11 +42,19 @@ Alguns detaques da figura:
 * **Camada 02 - Enlace :** é a camada que trata do endereço físico dos dispositivos de redes, isto é, o chassis da placa que trafega dados;
 * **Camada 01 - Física :** é a camada dos padrões elétricos, eletrônicos e mecânicos. 
 
-## Tipos de Topologias
+## Topologias de Redes
+
+Os hosts podem ser organizados em algum tipo de topologia a seguir:
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/network-topology.png">
    <img alt="Topologias de Redes" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/network-topology.png)">
 </picture>
 
+O mais comum para o ambiente de computadores é o **Estrela** que também pode ser estendido para **Estrela Estendida**.
 
+
+<picture>
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png">
+   <img alt="Estrela Extendida" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png)">
+</picture>
