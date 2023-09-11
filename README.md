@@ -92,7 +92,7 @@ Sua função é entender qual é o primeiro e o último endereço IPV4 disponív
 
 #### Primeiro endereço da faixa será: 
 
-| 10 | 0 | 0 | 0 |
+| 10 | 0 | 0 | 1 1 0 0 0 0 0 0 |
 |-|-|-|-|
 
 multiplicado pela máscara:
@@ -107,7 +107,7 @@ Resulta em:
 
 #### Último endereço da faixa será: 
 
-| 10 | 0 | 0 | 0 |
+| 10 | 0 | 0 | 1 1 1 1 1 1 1 1 |
 |-|-|-|-|
 
 vezes a máscara:
