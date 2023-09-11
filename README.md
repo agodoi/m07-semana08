@@ -87,9 +87,11 @@ CIDR = 26, então significa 26 bits são fixos, isto é, uma máscara de 26 bits
 
 Então, você pode brincar com os bits flexíveis marcados por **x**.
 
-|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 <font color=\"red\"> x x x x x x </font> |
+|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
 |-|-|-|-|
 | 255 | 255 | 255 | 192 |
+
+<font color=\"red\"> x x x x x x </font>
 
 Sua missão é entender qual é o primeiro e o último endereço IPV4 disponível na rede **10.0.0.0/26**
 
