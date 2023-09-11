@@ -92,7 +92,7 @@ Então, você pode brincar com os bits flexíveis marcados por **x**.
 
 Sua missão é entender qual é o primeiro e o último endereço IPV4 disponível na rede **10.0.0.0/26**
 
-#### Primeiro endereço da faixa será: 
+#### Primeiro endereço da faixa (quando tudo é ZERO) será: 
 
 | 10 | 0 | 0 | 0 0 0 0 0 0 0 0 |
 |-|-|-|-|
@@ -107,7 +107,7 @@ Resulta em:
 | 10 | 0 | 0 | 0 |
 |-|-|-|-|
 
-#### Último endereço da faixa será: 
+#### Último endereço da faixa (quando tudo é UM) será: 
 
 | 10 | 0 | 0 | 0 0 1 1 1 1 1 1 |
 |-|-|-|-|
@@ -122,6 +122,7 @@ Resulta em:
 | 10 | 0 | 0 | 63 |
 |-|-|-|-|
 
+porque 1 1 1 1 1 1 = 63
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/ipv4_vs_ipv6.png">
