@@ -85,5 +85,5 @@ E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, 
 ### 10.0.0.0/26
 CIDR = 26, então significa que a máscara possui 26 bits "1" e 6 bits irrelevantes marcados por x:
 
-|11111111|11111111|11111111|11xxxxxx|
+|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
 |-|-|-|-|
