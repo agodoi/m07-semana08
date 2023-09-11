@@ -78,5 +78,5 @@ E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, 
 **Basicamente, o que você precisa saber pra dominar esse trem?**
 
 | Fazer conversão de binária para decimal.|
-
+|-|
 
