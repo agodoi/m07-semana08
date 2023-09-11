@@ -95,7 +95,7 @@ Sua função é entender qual é o primeiro e o último endereço IPV4 disponív
 | 10 | 0 | 0 | 0 |
 |-|-|-|-|
 
-vezes a máscara:
+multiplicado pela máscara:
 
 |1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
 |-|-|-|-|
