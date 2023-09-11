@@ -83,16 +83,18 @@ E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, 
 ## Exemplos:
 
 ### 10.0.0.0/26
-CIDR = 26, então significa que a máscara possui 26 bits "1" e 6 bits irrelevantes marcados por x:
+CIDR = 26, então significa 26 bits são fixos, isto é, uma máscara de 26 bits "1" e 6 bits irrelevantes marcados por x.
+
+Então, você pode brincar com os bits flexíveis marcados por **x**.
 
 |1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
 |-|-|-|-|
 
-Sua função é entender qual é o primeiro e o último endereço IPV4 disponível na rede **10.0.0.0/26**
+Sua missão é entender qual é o primeiro e o último endereço IPV4 disponível na rede **10.0.0.0/26**
 
 #### Primeiro endereço da faixa será: 
 
-| 10 | 0 | 0 | 1 1 0 0 0 0 0 0 |
+| 10 | 0 | 0 | 0 0 0 0 0 0 0 0 |
 |-|-|-|-|
 
 multiplicado pela máscara:
@@ -107,7 +109,7 @@ Resulta em:
 
 #### Último endereço da faixa será: 
 
-| 10 | 0 | 0 | 1 1 1 1 1 1 1 1 |
+| 10 | 0 | 0 | 0 0 1 1 1 1 1 1 |
 |-|-|-|-|
 
 vezes a máscara:
@@ -120,3 +122,8 @@ Resulta em:
 | 10 | 0 | 0 | 63 |
 |-|-|-|-|
 
+
+<picture>
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/ipv4_vs_ipv6.png">
+   <img alt="IPV4 vs IPV6" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/ipv4_vs_ipv6.png)">
+</picture
