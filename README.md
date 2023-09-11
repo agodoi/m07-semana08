@@ -11,12 +11,20 @@ Nessa instrução, vamos falar especialmente de mapeamento de redes locais usand
 Existe dois tipos de redes: 
 
 * Local
-  - PAN (Personal Area Network): basicamente feita de dispositivos de curto alcance, em especial, os sem fio, via bluetooth;
-  - LAN (Local Area Network): feita de cabos e WiFi, conectando computadores, notebooks, impressores e servidores
-  - MAN (Metropolitan Area Network): feita de fibra óptica e rádio tipo minilink
+  - **PAN (Personal Area Network):** basicamente feita de dispositivos de curto alcance, em especial, os sem fio, via bluetooth;
+  - **LAN (Local Area Network):** feita de cabos e WiFi, conectando computadores, notebooks, impressores e servidores
+  - **MAN (Metropolitan Area Network):** feita de fibra óptica e rádio tipo minilink
     
 * Mundial
-  - WAN (Wide Area Network): feita de fibra óptica e satélite
+  - **WAN (Wide Area Network):** feita de fibra óptica e satélite. A Internet se mistura com uma WAN.
 
-A local são redes PAN, As redes servem para conectar os hosts (que são end-devices numa grande rede chamada Internet).
+Ambas as redes servem para conectar os hosts (que são end-devices numa grande rede chamada Internet).
+
+Os hosts se comunincam usando diversos protocolos que trabalham de **camada N para camada N**
+
+
+<picture>
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/modelo_osi.png">
+   <img alt="Modelo OSI" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/modelo_osi.png)">
+</picture>
 
