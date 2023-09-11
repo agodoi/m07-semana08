@@ -101,6 +101,7 @@ multiplicado pela máscara:
 
 |1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
 |-|-|-|-|
+| 255 | 255 | 255 | 192 |
 
 Resulta em:
 
