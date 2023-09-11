@@ -16,7 +16,7 @@ Existe dois tipos de redes:
   - MAN (Metropolitan Area Network): feita de fibra óptica e rádio tipo minilink
     
 * Mundial
-  -WAN (Wide Area Network): feita de fibra óptica e satélite
+  - WAN (Wide Area Network): feita de fibra óptica e satélite
 
 A local são redes PAN, As redes servem para conectar os hosts (que são end-devices numa grande rede chamada Internet).
 
