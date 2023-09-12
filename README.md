@@ -91,9 +91,9 @@ Então, você pode brincar com os bits flexíveis marcados por **x**.
 |-|-|-|-|
 | 255 | 255 | 255 | 192 |
 
-<font color=\"red\">x x x x x x</font>
+<font color=\"red\"> x x x x x x </font>
 
-<font color=\"red\">Texto com cor vermelha</font>
+<font color=\"red\"> Texto com cor vermelha </font>
 
 
 Sua missão é entender qual é o primeiro e o último endereço IPV4 disponível na rede **10.0.0.0/26**
