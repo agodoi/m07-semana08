@@ -85,9 +85,9 @@ E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, 
 ### 10.0.0.0/26
 CIDR = 26, então significa 26 bits são fixos, isto é, uma máscara de 26 bits "1" e 6 bits irrelevantes marcados por x.
 
-Então, você pode brincar com os bits flexíveis marcados por **x**.
+Então, você pode brincar com os bits flexíveis marcados por **X**, mas não pode mudar os bits marcados por **1**.
 
-|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
+|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 X X X X X X |
 |-|-|-|-|
 | 255 | 255 | 255 | 192 |
 
@@ -96,34 +96,58 @@ Então, você pode brincar com os bits flexíveis marcados por **x**.
 <font color=\"red\"> Texto com cor vermelha </font>
 
 
-Sua missão é entender qual é o primeiro e o último endereço IPV4 disponível na rede **10.0.0.0/26**
+Olhando para **10.0.0.0/26** sua missão é:
 
-#### Primeiro endereço da faixa (quando tudo é ZERO) será: 
+a) Qual é o endereço de rede?
 
-| 10 | 0 | 0 | 0 0 0 0 0 0 0 0 |
+b) Qual é o primeiro IPV4 disponível?
+
+c) Qual é o endereço de broadcast na rede?
+
+d) Qual é o último endereço IPV4 útil disponível?
+
+
+#### a) Endereço de rede é o primeiro endereço da faixa (quando os bits X são só ZERO): 
+
+Pega o IP original dado no enunciado:
+
+| 10 | 0 | 0 | 0 |
 |-|-|-|-|
 
-multiplicado pela máscara:
+Compare com a máscara e encontre os bits flexíveis **X** e não mexa com os bits marcados em **1**:
 
-|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
+|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 X X X X X X |
 |-|-|-|-|
 | 255 | 255 | 255 | 192 |
 
 Resulta em:
 
-| 10 | 0 | 0 | 0 |
+| 0 0 0 0 1 0 1 0 | 0 0 0 0 0 0 0 0 | 0 0 0 0 0 0 0 0 | 0 0 X X X X X X |
+|-|-|-|-|
+| 10 | 0 | 0 | 0 0 X X X X X X |
+
+Finalmente, coloque **0** no lugar dos **X** para encontrar o endereço da rede:
+
+| 10 | 0 | 0 | 0 0 0 0 0 0 0 0 |
 |-|-|-|-|
 
-#### Último endereço da faixa (quando tudo é UM) será: 
+Que é o mesmo que **10.0.0.0**
+
+### b) Qual é primeiro IP útil disponível?
+
+É sempre o primeiro após o endereço da rede. Portanto:
+
+| 10 | 0 | 0 | 0 0 0 0 0 0 0 1 |
+|-|-|-|-|
+| 10 | 0 | 0 | 1 |
+
+
+#### c) Qual o endereço de broadcast da rede? 
+
+Quando os **X** flexíveis são semopre **1**: 
 
 | 10 | 0 | 0 | 0 0 1 1 1 1 1 1 |
 |-|-|-|-|
-
-vezes a máscara:
-
-|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 x x x x x x |
-|-|-|-|-|
-| 255 | 255 | 255 | 192 |
 
 Resulta em:
 
@@ -131,6 +155,13 @@ Resulta em:
 |-|-|-|-|
 
 porque 1 1 1 1 1 1 = 63
+
+### d) Qual é o último endereço ÚTIL da faixa?
+
+É sempre penúltimo endereço, isto é, um antes do broadcast.
+
+| 10 | 0 | 0 | 62 |
+|-|-|-|-|
 
 
 **Portanto, temos:**
