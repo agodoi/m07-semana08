@@ -260,3 +260,27 @@ porque 1 1 1 1 1 1 = 63
 - Endereço de broadcast: 10.0.1.127
 - Último IPV4 útil: 10.0.1.126
 - Quantidade de hosts possíveis: 2^6 - 2 = 62
+
+
+# Agora pense!
+
+Numas das instruções, você criou uma VPC 192.168.0.0/22
+
+### Dado o IP 192.168.0.0/22
+#### a) Qual é máscara de sub-rede?
+#### b) Qual é o endereço de rede?
+#### c) Qual é o primeiro IPV4 disponível?
+#### d) Qual é o endereço de broadcast na rede?
+#### e) Qual é o último endereço IPV4 útil disponível?
+#### f) Quantos hosts são possíveis?
+
+E criou uma sub-rede privada 192.168.0.0/24 e uma sub-rede pública 192.168.0.1/24
+
+#### a) Qual é máscara de cada sub-rede?
+#### b) Qual é o endereço de rede de cada sub-rede?
+#### c) Qual é o primeiro IPV4 disponível de cada sub-rede?
+#### d) Qual é o endereço de broadcast em cada rede-sub?
+#### e) Qual é o último endereço IPV4 útil disponível em cada sub-rede?
+#### f) Quantos hosts são possíveis em cada sub-rede?
+
+### g) Resposda: as sub-redes de fato estão dentro da VPC? Justique!
