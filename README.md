@@ -80,7 +80,7 @@ E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, 
 | Fazer conversão de binária para decimal.|
 |-|
 
-## Exemplos:
+## Exemplo 01:
 
 ### Dado o IP 10.0.0.0/26
 #### a) Qual é o endereço de rede?
