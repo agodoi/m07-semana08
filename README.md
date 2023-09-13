@@ -158,7 +158,7 @@ porque 1 1 1 1 1 1 = 63
 
 ### d) Qual é o último endereço ÚTIL da faixa?
 
-É sempre penúltimo endereço, isto é, um antes do broadcast.
+É sempre o penúltimo endereço do broadcast.
 
 | 10 | 0 | 0 | 62 |
 |-|-|-|-|
