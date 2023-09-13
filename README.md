@@ -108,11 +108,13 @@ d) Qual é o endereço de broadcast na rede?
 
 e) Qual é o último endereço IPV4 útil disponível?
 
-### a) Qual é a máscara de rede
+f) Quantos hosts cabem nessa rede?
+
+### a) Máscara de rede
 
 Máscara de sub-rede é um valor numérico que é usado em redes de computadores para dividir uma rede IP em sub-redes menores. Essa máscara é usada em conjunto com um endereço IP para determinar quais bits no endereço IP representam a rede e quais bits representam o host dentro dessa rede.
 
-A parte da rede é indicada com **1**. A parte de hosts é indicada com **0** ou **X**. Vamos adotar o X, que significa, *irrelevante*. Para o exemplo dado **/26** teremos:
+A parte da rede é indicada com **1**. A parte de hosts é indicada com **0** ou **X**. Vamos adotar o **X**, que significa, *irrelevante* (será uma faixa de valores e não um valor único). Para o exemplo dado **/26** teremos:
 
 |1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 X X X X X X |
 |-|-|-|-|
@@ -176,25 +178,85 @@ porque 1 1 1 1 1 1 = 63
 |-|-|-|-|
 
 
+### f) Qual é a quantidade de hosts possíveis nessa rede?
+
+É só contar a quantidade de endereços do 1º até um antes do broadcast, que nesse caso será do 1 ao 62, portanto, 62 hosts possíveis de serem endereçados nessa rede. Em outras palavras, cabem 62 máquinas ou end-points nessa rede.
+
 **Respostas:**
 - Máscara de sub-rede: 255.255.255.192
-- Primeiro endereço: 10.0.0.0 (endereço da rede)
-- Último endereço: 10.0.0.63 (endereço de broadcast)
-- Faixa útil: 10.0.0.1 até 10.0.0.62
+- Endereço de rede: 10.0.0.0
+- 1º endereço útil: 10.0.0.1
+- Endereço de broadcast: 10.0.0.63 (último endereço)
+- Último endereço útil: 10.0.0.62
 - Quantidade de hosts possíveis: 62
 
 
-## Exemplo 02:
-
-### Dado o IP 172.16.1.43/28
+## Exemplo 02: dado o IP 172.16.1.43/28
 #### a) Qual é máscara de sub-rede?
 #### b) Qual é o endereço de rede?
 #### c) Qual é o primeiro IPV4 disponível?
 #### d) Qual é o endereço de broadcast na rede?
 #### e) Qual é o último endereço IPV4 útil disponível?
+#### f) Quantos hosts são possíveis?
 
 **Respostas:**
-- Primeiro endereço: 172.16.1.32 (endereço da rede)
-- Último endereço: 172.16.1.47 (endereço de broadcast)
-- Faixa útil: 172.16.1.33 até 172.16.1.46
+- Máscara de sub-rede: 255.255.255.240
+- Endereço de rede: 172.16.1.32
+- 1º IPV4: 172.16.1.33
+- Endereço de broadcast: 172.16.1.47 (último)
+- Último IPV4 útil: 172.16.1.46
 - Quantidade de hosts possíveis: 13
+
+
+## Exemplo 03: dado o IP 10.0.8.0/21
+#### a) Qual é máscara de sub-rede?
+#### b) Qual é o endereço de rede?
+#### c) Qual é o primeiro IPV4 disponível?
+#### d) Qual é o endereço de broadcast na rede?
+#### e) Qual é o último endereço IPV4 útil disponível?
+#### f) Quantos hosts são possíveis?
+
+**Respostas:**
+- Máscara de sub-rede: 255.255.255.248
+- Endereço de rede: 10.0.8.0
+- 1º IPV4: 10.0.8.1
+- Endereço de broadcast: 10.0.15.255
+- Último IPV4 útil: 10.0.15.254
+- Quantidade de hosts possíveis: 2046
+
+
+## Exemplo 04:
+
+### Dado o IP
+#### a) Qual é máscara de sub-rede?
+#### b) Qual é o endereço de rede?
+#### c) Qual é o primeiro IPV4 disponível?
+#### d) Qual é o endereço de broadcast na rede?
+#### e) Qual é o último endereço IPV4 útil disponível?
+#### f) Quantos hosts são possíveis?
+
+**Respostas:**
+- Máscara de sub-rede:
+- Endereço de rede:
+- 1º IPV4:
+- Endereço de broadcast:
+- Último IPV4 útil:
+- Quantidade de hosts possíveis:
+
+- ## Exemplo 05:
+
+### Dado o IP
+#### a) Qual é máscara de sub-rede?
+#### b) Qual é o endereço de rede?
+#### c) Qual é o primeiro IPV4 disponível?
+#### d) Qual é o endereço de broadcast na rede?
+#### e) Qual é o último endereço IPV4 útil disponível?
+#### f) Quantos hosts são possíveis?
+
+**Respostas:**
+- Máscara de sub-rede:
+- Endereço de rede:
+- 1º IPV4:
+- Endereço de broadcast:
+- Último IPV4 útil:
+- Quantidade de hosts possíveis:
