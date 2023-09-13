@@ -88,7 +88,7 @@ E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, 
 #### c) Qual é o endereço de broadcast na rede?
 #### d) Qual é o último endereço IPV4 útil disponível?
 
-CIDR = 26, então significa 26 bits são fixos, isto é, uma máscara de 26 bits "1" e 6 bits irrelevantes marcados por x.
+O /26 significa que o CIDR = 26, então significa 26 bits são fixos, isto é, uma máscara de 26 bits "1" e 6 bits irrelevantes marcados por x.
 
 Então, você pode brincar com os bits flexíveis marcados por **X**, mas não pode mudar os bits marcados por **1**.
 
@@ -96,9 +96,7 @@ Então, você pode brincar com os bits flexíveis marcados por **X**, mas não p
 |-|-|-|-|
 | 255 | 255 | 255 | 192 |
 
-<font color=\"red\"> x x x x x x </font>
-
-<font color=\"red\"> Texto com cor vermelha </font>
+<span style="color:blue">some *blue* text</span>.
 
 
 Olhando para **10.0.0.0/26** sua missão é:
