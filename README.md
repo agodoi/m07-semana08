@@ -82,7 +82,12 @@ E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, 
 
 ## Exemplos:
 
-### 10.0.0.0/26
+### Dado o IP 10.0.0.0/26
+#### a) Qual é o endereço de rede?
+#### b) Qual é o primeiro IPV4 disponível?
+#### c) Qual é o endereço de broadcast na rede?
+#### d) Qual é o último endereço IPV4 útil disponível?
+
 CIDR = 26, então significa 26 bits são fixos, isto é, uma máscara de 26 bits "1" e 6 bits irrelevantes marcados por x.
 
 Então, você pode brincar com os bits flexíveis marcados por **X**, mas não pode mudar os bits marcados por **1**.
