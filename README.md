@@ -98,16 +98,28 @@ Então, você pode brincar com os bits flexíveis marcados por **X**, mas não p
 
 Olhando para **10.0.0.0/26** sua missão é:
 
-a) Qual é o endereço de rede?
+a) Qual é a máscara de rede?
 
-b) Qual é o primeiro IPV4 disponível?
+b) Qual é o endereço de rede?
 
-c) Qual é o endereço de broadcast na rede?
+c) Qual é o primeiro IPV4 disponível?
 
-d) Qual é o último endereço IPV4 útil disponível?
+d) Qual é o endereço de broadcast na rede?
+
+e) Qual é o último endereço IPV4 útil disponível?
+
+### a) Qual é a máscara de rede
+
+Máscara de sub-rede é um valor numérico que é usado em redes de computadores para dividir uma rede IP em sub-redes menores. Essa máscara é usada em conjunto com um endereço IP para determinar quais bits no endereço IP representam a rede e quais bits representam o host dentro dessa rede.
+
+A parte da rede é indicada com **1**. A parte de hosts é indicada com **0** ou **X**. Vamos adotar o X, que significa, *irrelevante*. Para o exemplo dado **/26** teremos:
+
+|1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 1 1 1 1 1 1 | 1 1 X X X X X X |
+|-|-|-|-|
+| 255 | 255 | 255 | 192 |
 
 
-### a) Endereço de rede é o primeiro endereço da faixa (quando os bits X são só ZERO): 
+### b) Endereço de rede é o primeiro endereço da faixa (quando os bits X são só ZERO): 
 
 Pega o IP original dado no enunciado:
 
@@ -126,14 +138,14 @@ Resulta em:
 |-|-|-|-|
 | 10 | 0 | 0 | 0 0 X X X X X X |
 
-Finalmente, coloque **0** no lugar dos **X** para encontrar o endereço da rede:
+Finalmente, coloque **0** no lugar dos **X** para encontrar o endereço da rede, porque endereço de rede é sempre o primeiro endereço possível:
 
 | 10 | 0 | 0 | 0 0 0 0 0 0 0 0 |
 |-|-|-|-|
 
 Que é o mesmo que **10.0.0.0**
 
-### b) Qual é primeiro IP útil disponível?
+### c) Qual é primeiro IP útil disponível?
 
 É sempre o primeiro após o endereço da rede. Portanto:
 
@@ -142,7 +154,7 @@ Que é o mesmo que **10.0.0.0**
 | 10 | 0 | 0 | 1 |
 
 
-### c) Qual o endereço de broadcast da rede? 
+### d) Qual o endereço de broadcast da rede? 
 
 Quando os **X** flexíveis são semopre **1**: 
 
@@ -156,7 +168,7 @@ Resulta em:
 
 porque 1 1 1 1 1 1 = 63
 
-### d) Qual é o último endereço ÚTIL da faixa?
+### e) Qual é o último endereço ÚTIL da faixa?
 
 É sempre o penúltimo endereço do broadcast.
 
@@ -165,6 +177,7 @@ porque 1 1 1 1 1 1 = 63
 
 
 **Respostas:**
+- Máscara de sub-rede: 255.255.255.192
 - Primeiro endereço: 10.0.0.0 (endereço da rede)
 - Último endereço: 10.0.0.63 (endereço de broadcast)
 - Faixa útil: 10.0.0.1 até 10.0.0.62
@@ -174,10 +187,11 @@ porque 1 1 1 1 1 1 = 63
 ## Exemplo 02:
 
 ### Dado o IP 172.16.1.43/28
-#### a) Qual é o endereço de rede?
-#### b) Qual é o primeiro IPV4 disponível?
-#### c) Qual é o endereço de broadcast na rede?
-#### d) Qual é o último endereço IPV4 útil disponível?
+#### a) Qual é máscara de sub-rede?
+#### b) Qual é o endereço de rede?
+#### c) Qual é o primeiro IPV4 disponível?
+#### d) Qual é o endereço de broadcast na rede?
+#### e) Qual é o último endereço IPV4 útil disponível?
 
 **Respostas:**
 - Primeiro endereço: 172.16.1.32 (endereço da rede)
