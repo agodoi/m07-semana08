@@ -225,7 +225,7 @@ porque 1 1 1 1 1 1 = 63
 - Quantidade de hosts possíveis: 2046
 
 
-## Exemplo 04:
+## Exemplo 04: 10.0.128.0/17
 
 ### Dado o IP
 #### a) Qual é máscara de sub-rede?
@@ -236,12 +236,12 @@ porque 1 1 1 1 1 1 = 63
 #### f) Quantos hosts são possíveis?
 
 **Respostas:**
-- Máscara de sub-rede:
-- Endereço de rede:
-- 1º IPV4:
-- Endereço de broadcast:
-- Último IPV4 útil:
-- Quantidade de hosts possíveis:
+- Máscara de sub-rede: 255.255.128.0
+- Endereço de rede: 10.0.128.0
+- 1º IPV4: 10.0.128.1
+- Endereço de broadcast: 10.0.255.255
+- Último IPV4 útil: 10.0.255.254
+- Quantidade de hosts possíveis: 32.766
 
 - ## Exemplo 05:
 
