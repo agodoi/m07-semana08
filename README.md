@@ -284,3 +284,11 @@ Numas das instruções, você criou uma VPC 192.168.0.0/22
 #### f) Quantos hosts são possíveis em cada sub-rede?
 
 ### g) Resposda: as sub-redes de fato estão dentro da VPC? Justique!
+
+A título de curiosidade, as faixas de IP gratuitas utilizadas em redes locais são:
+
+- Faixa Classe A: 10.0.0.0 a 10.255.255.255
+
+- Faixa Classe B: 172.16.0.0 a 172.31.255.255
+
+- Faixa Classe C: 192.168.0.0 a 192.168.255.255
