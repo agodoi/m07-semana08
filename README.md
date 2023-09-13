@@ -164,8 +164,23 @@ porque 1 1 1 1 1 1 = 63
 |-|-|-|-|
 
 
-**Portanto, temos:**
+**Respostas:**
 - Primeiro endereço: 10.0.0.0 (endereço da rede)
 - Último endereço: 10.0.0.63 (endereço de broadcast)
 - Faixa útil: 10.0.0.1 até 10.0.0.62
 - Quantidade de hosts possíveis: 62
+
+
+## Exemplo 02:
+
+### Dado o IP 172.16.1.43/28
+#### a) Qual é o endereço de rede?
+#### b) Qual é o primeiro IPV4 disponível?
+#### c) Qual é o endereço de broadcast na rede?
+#### d) Qual é o último endereço IPV4 útil disponível?
+
+**Respostas:**
+- Primeiro endereço: 172.16.1.32 (endereço da rede)
+- Último endereço: 172.16.1.47 (endereço de broadcast)
+- Faixa útil: 172.16.1.33 até 172.16.1.46
+- Quantidade de hosts possíveis: 13
