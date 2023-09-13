@@ -274,7 +274,7 @@ Numas das instruções, você criou uma VPC 192.168.0.0/22
 #### e) Qual é o último endereço IPV4 útil disponível?
 #### f) Quantos hosts são possíveis?
 
-# E criou uma sub-rede privada 192.168.0.0/24 e uma sub-rede pública 192.168.0.1/24
+# E criou uma sub-rede privada 192.168.0.0/24 e uma sub-rede pública 192.168.1.0/24
 
 #### a) Qual é máscara de cada sub-rede?
 #### b) Qual é o endereço de rede de cada sub-rede?
