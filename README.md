@@ -283,7 +283,7 @@ Numas das instruções, você criou uma VPC 192.168.0.0/22
 #### e) Qual é o último endereço IPV4 útil disponível em cada sub-rede?
 #### f) Quantos hosts são possíveis em cada sub-rede?
 
-### g) Resposda: as sub-redes de fato estão dentro da VPC? Justique!
+### g) As sub-redes de fato estão dentro da VPC? Justique!
 
 A título de curiosidade, as faixas de IP gratuitas utilizadas em redes locais são:
 
