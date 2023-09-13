@@ -142,7 +142,7 @@ Que é o mesmo que **10.0.0.0**
 | 10 | 0 | 0 | 1 |
 
 
-#### c) Qual o endereço de broadcast da rede? 
+### c) Qual o endereço de broadcast da rede? 
 
 Quando os **X** flexíveis são semopre **1**: 
 
