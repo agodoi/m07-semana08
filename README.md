@@ -107,7 +107,7 @@ c) Qual é o endereço de broadcast na rede?
 d) Qual é o último endereço IPV4 útil disponível?
 
 
-#### a) Endereço de rede é o primeiro endereço da faixa (quando os bits X são só ZERO): 
+### a) Endereço de rede é o primeiro endereço da faixa (quando os bits X são só ZERO): 
 
 Pega o IP original dado no enunciado:
 
