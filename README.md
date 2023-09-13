@@ -96,9 +96,6 @@ Então, você pode brincar com os bits flexíveis marcados por **X**, mas não p
 |-|-|-|-|
 | 255 | 255 | 255 | 192 |
 
-<span style="color:blue">some *blue* text</span>.
-
-
 Olhando para **10.0.0.0/26** sua missão é:
 
 a) Qual é o endereço de rede?
