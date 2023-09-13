@@ -243,7 +243,7 @@ porque 1 1 1 1 1 1 = 63
 - Último IPV4 útil: 10.0.255.254
 - Quantidade de hosts possíveis: 2^15 - 2 = 32.766
 
-- ## Exemplo 05: 10.0.1.64/26
+## Exemplo 05: 10.0.1.64/26
 
 ### Dado o IP
 #### a) Qual é máscara de sub-rede?
