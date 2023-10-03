@@ -217,7 +217,7 @@ porque 1 1 1 1 1 1 = 63
 #### f) Quantos hosts são possíveis?
 
 **Respostas:**
-- Máscara de sub-rede: 255.255.255.248
+- Máscara de sub-rede: 255.255.248.0
 - Endereço de rede: 10.0.8.0
 - 1º IPV4: 10.0.8.1
 - Endereço de broadcast: 10.0.15.255
