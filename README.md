@@ -300,3 +300,5 @@ A título de curiosidade, as faixas de IP gratuitas utilizadas em redes locais s
 - Faixa Classe: 172.16.0.0 a 172.31.255.255
 
 - Faixa Classe: 192.168.0.0 a 192.168.255.255
+
+# Kahoot!
