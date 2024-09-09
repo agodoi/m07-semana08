@@ -69,6 +69,7 @@ O mais comum para o ambiente de computadores é o **Estrela** que também pode s
    <img alt="Estrela Estendida" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png)">
 </picture>
 
+
 ## Protocolo IPV4 vs IPV6
 
 A figura a seguir aponta as principais diferenças. Contudo, na rede local, só se usa o IPV4.
@@ -79,13 +80,13 @@ A figura a seguir aponta as principais diferenças. Contudo, na rede local, só 
 </picture
 
 
-# Redes e Sub-redes
+## Redes e Sub-redes
 
 As redes de computadores servem para criar hierarquias de estações de trabalho dentro de numa organização. Por exemplo, numa instituição de ensino, existe a rede de alunos, a de professores e a administrativa. As redes geralmente não se conversam e há critérios de segurança entre elas.
 
 E as sub-redes são redes menores que nascem a partir de uma rede, e para isso, precisamos do CIDR (Classes Inter-Domain Routing) para organizar essas redes dentro de redes.
 
-**Basicamente, o que você precisa saber pra dominar esse trem?**
+## Basicamente, o que você precisa saber pra dominar esse trem?
 
 | Fazer conversão de binária para decimal.|
 |-|
