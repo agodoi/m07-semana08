@@ -46,7 +46,11 @@ Alguns detaques da figura:
 * **Camada 04 - Transporte :** é a camada de transferência de dados fim a fim. É o frete de pacotes. É a cada do TCP e UDP. TCP garante a entrega, UDP transporta, mas não garante a entrega de pacotes;
 * **Camada 03 - Redes :** determina o caminho e a lógica de roteamento de pacotes. É a cada do IPV4 e IPV6;
 * **Camada 02 - Enlace :** é a camada que trata do endereço físico dos dispositivos de redes, isto é, o chassis da placa que trafega dados;
-* **Camada 01 - Física :** é a camada dos padrões elétricos, eletrônicos e mecânicos. 
+* **Camada 01 - Física :** é a camada dos padrões elétricos, eletrônicos e mecânicos.
+
+## Demonstração de Montagem de Cabo UTP
+
+[VÍDEO](https://www.youtube.com/watch?v=OT_5EjDfD6M)
 
 ## Topologias de Redes
 
