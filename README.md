@@ -7,6 +7,12 @@ Nessa instrução, vamos falar especialmente de mapeamento de redes locais usand
 3) Topologias de redes;
 4) TCP e UDP;
 
+# Vantagens no seu projeto
+
+* Organizar suas aplicações Vivo em sub-redes privadas e seguras;
+* Entender como a sub-rede pública da Vivo isola a sub-rede privada;
+* Enteder o mapeamento desses sub-redes dentro da VPC da Vivo;
+* Garantir a segurança das lojas virtuais da Vivo e suas aplicações.
 
 Existe dois tipos de redes: 
 
@@ -287,8 +293,10 @@ Numas das instruções, você criou uma VPC 192.168.0.0/22
 
 A título de curiosidade, as faixas de IP gratuitas utilizadas em redes locais são:
 
-- Faixa Classe A: 10.0.0.0 a 10.255.255.255
+# Desafio. Descubra o CIDR de cada faixa endereços gratuitos abaixo:
 
-- Faixa Classe B: 172.16.0.0 a 172.31.255.255
+- Faixa Classe: 10.0.0.0 a 10.255.255.255 
 
-- Faixa Classe C: 192.168.0.0 a 192.168.255.255
+- Faixa Classe: 172.16.0.0 a 172.31.255.255
+
+- Faixa Classe: 192.168.0.0 a 192.168.255.255
