@@ -39,7 +39,7 @@ Alguns detaques da figura:
 * O Modelo OSI (Opened Standard Interconnection) possui 7 camadas. É uma pilha de camadas totalmente abstrata, isto é, não existe essas camadas na vida real e não correspondem à nenhuma placa específica do computador;
 
 ## Modelo OSI
-  
+
 * **Camada 07 - Aplicação :** cuida de tudo o que aparece na sua tela, é a aplicação;
 * **Camada 06 - Apresentação :** é o tradutor com criptografia/descriptografia;
 * **Camada 05 - Sessão :** é a camada de intercomunicação entre hosts. É como se fosse uma sessão de cinema que tem hora para começar e acabar, isto é, o serviço ficará disponível para você por X minutos ou horas;
