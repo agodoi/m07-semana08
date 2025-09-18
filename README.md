@@ -56,22 +56,14 @@ Os hosts podem ser organizados em algum tipo de topologia a seguir:
 
 O mais comum para o ambiente de computadores é o **Estrela** que também pode ser estendido para **Estrela Estendida** quando uma estrela dá origem para outra estrela.
 
-
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png">
-   <img alt="Estrela Estendida" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png)">
-</picture>
-
+<img src="https://github.com/agodoi/SubRedes/blob/main/imgs/estrela_extendida.png" width="500">
 
 ## Protocolo IPV4 vs IPV6
 
 A figura a seguir aponta as principais diferenças. Contudo, na rede local, só se usa o IPV4.
 
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/ipv4_vs_ipv6.png">
-   <img alt="IPV4 vs IPV6" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/ipv4_vs_ipv6.png)">
-</picture
 
+<img src="https://github.com/agodoi/SubRedes/blob/main/imgs/ipv4_vs_ipv6.png" width="500">
 
 ## Redes e Sub-redes
 
