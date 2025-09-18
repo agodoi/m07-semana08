@@ -51,10 +51,8 @@ Alguns detaques da figura:
 
 Os hosts podem ser organizados em algum tipo de topologia a seguir:
 
-<picture>
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/network-topology.png">
-   <img alt="Topologias de Redes" src="[YOUR-DEFAULT-IMAGE](https://github.com/agodoi/SubRedes/blob/main/imgs/network-topology.png)">
-</picture>
+
+<img src="https://github.com/agodoi/SubRedes/blob/main/imgs/network-topology.png" width="500">
 
 O mais comum para o ambiente de computadores é o **Estrela** que também pode ser estendido para **Estrela Estendida** quando uma estrela dá origem para outra estrela.
 
