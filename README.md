@@ -9,10 +9,9 @@ Nessa instrução, vamos falar especialmente de mapeamento de redes locais usand
 
 # Vantagens no seu projeto
 
-* Organizar suas aplicações Vivo em sub-redes privadas e seguras;
-* Entender como a sub-rede pública da Vivo isola a sub-rede privada;
-* Enteder o mapeamento desses sub-redes dentro da VPC da Vivo;
-* Garantir a segurança das lojas virtuais da Vivo e suas aplicações.
+* Organizar suas aplicações em sub-redes privadas e seguras;
+* Entender como a sub-rede pública da empresa isola a sub-rede privada;
+* Enteder o mapeamento desses sub-redes dentro da VPC que você criou para a empresa parceira;
 
 Existe dois tipos de redes: 
 
@@ -28,6 +27,7 @@ Ambas as redes servem para conectar os hosts (que são end-devices numa grande r
 
 Os hosts se comunincam usando diversos protocolos que trabalham de **camada N para camada N**.
 
+<img src="https://github.com/agodoi/SubRedes/blob/main/imgs/modelo_osi.png" width="1000">
 
 <picture>
    <source media="(prefers-color-scheme: light)" srcset="https://github.com/agodoi/SubRedes/blob/main/imgs/modelo_osi.png">
