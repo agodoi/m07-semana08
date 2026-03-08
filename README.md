@@ -191,7 +191,7 @@ porque 1 1 1 1 1 1 = 63
 - 1º IPV4: 172.16.1.33
 - Endereço de broadcast: 172.16.1.47 (último)
 - Último IPV4 útil: 172.16.1.46
-- Quantidade de hosts possíveis: 13
+- Quantidade de hosts possíveis: 14
 
 
 ## Exemplo 03: dado o IP 10.0.8.0/21
